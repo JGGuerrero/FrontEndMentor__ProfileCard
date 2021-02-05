@@ -4,8 +4,8 @@ body {
   font-size: 18px;
   font-family: 'Kumbh Sans', sans-serif;
   background:  hsl(185, 75%, 39%);
-  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-  background-position: -50%, 100%;
+  /* background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg); */
+  /* background-position: -50%, 100%; */
 }
 
 .darkCyan {
@@ -88,4 +88,19 @@ body {
 
 .padding-side {
   padding: 0px 1px;
+}
+
+.bg-1 {
+  position: absolute;
+  bottom: 0;
+  left: -100px;
+
+  z-index: -1;
+}
+
+.bg-2 {
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  z-index: -2;
 }
